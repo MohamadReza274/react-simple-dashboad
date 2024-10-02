@@ -1,8 +1,6 @@
-import { BellIcon } from "@heroicons/react/24/outline";
-import Logo from "../assets/logo.svg";
-import { Link, NavLink } from "react-router-dom";
-import { twMerge } from "tailwind-merge";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
+import { NavLink } from "react-router-dom";
+import Logo from "../assets/logo.svg";
 
 const navItems = [
   { id: 1, path: "/", value: "Home" },
